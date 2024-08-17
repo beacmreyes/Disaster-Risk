@@ -13,14 +13,14 @@ import plotly.graph_objects as go
 
 
 category_colors = {
-    'Low': 'rgba(40, 167, 69, 0.4)',    # Green with 50% opacity
-    'Medium': 'rgba(255, 165, 0, 0.4)', # Orange with 70% opacity
-    'High': 'rgba(255, 0, 0, 0.4)',     # Red with 80% opacity
+    'Low': 'rgba(40, 167, 69, 0.7)',    # Green with 50% opacity
+    'Medium': 'rgba(255, 165, 0, 0.7)', # Orange with 70% opacity
+    'High': 'rgba(255, 0, 0, 0.7)',     # Red with 80% opacity
 }
 
 
 
-
+@st.fragment()
 def create_donut_chart(df, category_col):   
     # Define the desired order
     category_order = ['Low', 'Medium', 'High']
@@ -88,21 +88,16 @@ def create_map(gdf):
     # Create a base map
     m = folium.Map(location=[7.25, 125.6], scrollWheelZoom=True, tiles='CartoDB positron', zoom_start=10.49)
 
-    # Define a color map based on categories
-    category_colors = {
-        '1 - Low': '#28a745',    # Green
-        '2 - Medium': '#ffa500', # Orange
-        '3 - High': '#ff0000',   # Red
-    }
-
     # Add GeoJSON to the map with colors based on category
     geojson_data = gdf.to_json()
     folium.GeoJson(
         geojson_data,
         style_function=lambda feature: {
-            'fillColor': category_colors.get(feature['properties']['risk_score_category'], 'gray'),
+            'fillColor': category_colors.get(feature['properties']['risk_category'], 'gray'),
             'color': 'black',
-            'weight': 0.5,
+            'weight': 1,
+            'fillOpacity':0.7
+            
         },
         tooltip=folium.GeoJsonTooltip(
             fields=['barangay', 'risk_score_category'],
@@ -123,17 +118,17 @@ def main():
 
     with col1:
 
-
+        st.markdown("Risk is the potential loss of life, injury, or destroyed or damaged assets which could occur to a system, society or a community in a specific period of time, determined probabilistically as a function of hazard, exposure, vulnerability and capacity.")
         
-        # Streamlit app
-        st.write('Risk Level')
-
+        
+        
         fig = create_donut_chart(df, 'risk_category')
 
         # Display the chart in Streamlit
         st.plotly_chart(fig)
 
-        # Render the legend
+        # Streamlit app
+        st.caption('Risk Level:')
         st.markdown(render_legend(category_colors), unsafe_allow_html=True)
 
     with col2:

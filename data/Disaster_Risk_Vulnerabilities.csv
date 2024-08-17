@@ -1,19 +1,19 @@
-Group,Subgroup,table_name,original_column_name,feature,display_name,high_value_high_risk,caption
-Social Vulnerability,Wealth Index,tm_relative_wealth_index,rwi_median,rwi_median,Relative Wealth Index Median,FALSE,
-Social Vulnerability,Disaster preparedness and response,osm_poi_amenity,community_centre_nearest,community_centre_nearest,Nearest Community Center,TRUE,
-Social Vulnerability,Disaster preparedness and response,osm_poi_amenity,fire_station_nearest,fire_station_nearest,Nearest Fire Station,TRUE,
-Social Vulnerability,Disaster preparedness and response,mapbox_health_facility_brgy_isochrones,hospital_pop_reached_pct_5min,hospital_pop_reached_pct_5min,hospital_pop_reached_pct_5min,FALSE,
-Social Vulnerability,Disaster preparedness and response,mapbox_health_facility_brgy_isochrones,hospital_pop_reached_pct_15min,hospital_pop_reached_pct_15min,hospital_pop_reached_pct_15min,FALSE,
-Social Vulnerability,Healthcare access,geoportal_doh_poi_health,doh_rural_health_unit_nearest,doh_rural_health_unit_nearest,Nearest DOH,TRUE,
-Social Vulnerability,Education,osm_poi_amenity,school_count,school_count,Number of Schools,FALSE,
-Social Vulnerability,Education,osm_poi_amenity,university_nearest,university_nearest,Nearest University,TRUE,
-Physical Vulnerability,Electricity access,nighttime_lights,avg_rad_max,avg_rad_max,avg_rad_max,FALSE,
-Physical Vulnerability,Communication access,osm_poi_amenity,telephone_nearest,telephone_nearest,Nearest Telephone,TRUE,
-Physical Vulnerability,Communication access,ookla_internet_speed,mobile_mean_avg_d_kbps_mean,download_speed,Download Speed,FALSE,
-Physical Vulnerability,"Water, Sanitation and Hygiene (WASH)",osm_poi_sanitation,drinking_water_nearest,drinking_water_nearest,Nearest Drinking_Water,TRUE,
-Physical Vulnerability,"Water, Sanitation and Hygiene (WASH)",osm_poi_sanitation,toilet_nearest,toilet_nearest,Nearest Toilet,TRUE,
-Physical Vulnerability,"Water, Sanitation and Hygiene (WASH)",osm_poi_sanitation,waste_basket_nearest,waste_basket_nearest,Nearest Waste Basket,TRUE,
-Physical Vulnerability,Housing and Assets,google_open_buildings,google_bldgs_density,google_bldgs_density,Google Building Density,TRUE,
-Physical Vulnerability,Population,worldpop_population,pop_count_total,pop_count_total,Total Population,TRUE,
-Physical Vulnerability,Geography,brgy_geography,brgy_distance_to_coast,brgy_distance_to_coast,Distance to Coast,TRUE,
-Environmental Vulnerability,Geography,esa_worldcover,pct_area_tree_cover,pct_area_tree_cover,pct_area_tree_cover,FALSE,
+Group,Subgroup,table_name,original_column_name,feature,display_name,high_value_high_risk,caption,source
+Social Vulnerability,Wealth Index,tm_relative_wealth_index,rwi_median,rwi_median,Relative Wealth Index Median,FALSE,Estimated Median Relative Wealth Index (RWI) value in the barangay,"Project CCHAIN, UNICEF AI4D Relative Wealth"
+Social Vulnerability,Disaster preparedness and response,osm_poi_amenity,community_centre_nearest,community_centre_nearest,Nearest Community Center,TRUE,"Distance in meters (m) of nearest community centre to barangay centroid, capped at 10,000 m if beyond","Project CCHAIN, OpenStreetMap"
+Social Vulnerability,Disaster preparedness and response,osm_poi_amenity,fire_station_nearest,fire_station_nearest,Nearest Fire Station,TRUE,"Distance in meters (m) of nearest fire stations to barangay centroid, capped at 10,000 m if beyond","Project CCHAIN, OpenStreetMap"
+Social Vulnerability,Disaster preparedness and response,mapbox_health_facility_brgy_isochrones,hospital_pop_reached_pct_5min,hospital_pop_reached_pct_5min,Hospital Access Rate (5 min),FALSE,Percent of the barangay population that can reach the nearest hospital within 5 minutes,"Project CCHAIN, Mapbox API Isochrones, DOH - National Health Facility Registry at GeoPortal PH"
+Social Vulnerability,Disaster preparedness and response,mapbox_health_facility_brgy_isochrones,hospital_pop_reached_pct_15min,hospital_pop_reached_pct_15min,Hospital Access Rate (15 min),FALSE,Percent of the barangay population that can reach the nearest hospital within 15 minutes,"Project CCHAIN, Mapbox API Isochrones, DOH - National Health Facility Registry at GeoPortal PH"
+Social Vulnerability,Healthcare access,geoportal_doh_poi_health,doh_rural_health_unit_nearest,doh_rural_health_unit_nearest,Nearest DOH,TRUE,"Distance in meters (m) of nearest RHU to barangay centroid from 2013, capped at 10,000 m if beyond","Project CCHAIN, DOH - National Health Facility Registry at GeoPortal PH"
+Social Vulnerability,Education,osm_poi_amenity,school_count,school_count,Number of Schools,FALSE,Number of schools in barangay,"Project CCHAIN, OpenStreetMap"
+Social Vulnerability,Education,osm_poi_amenity,university_nearest,university_nearest,Nearest University,TRUE,"Distance in meters (m) of nearest university to barangay centroid, capped at 10,000 m if beyond","Project CCHAIN, OpenStreetMap"
+Physical Vulnerability,Electricity access,nighttime_lights,avg_rad_max,avg_rad_max,Nighttime Radiance,FALSE,Maximum monthly nighttime radiance measurements from the Payne Institute for Public Policy,"Project CCHAIN, Payne Institute for Public Policy"
+Physical Vulnerability,Communication access,osm_poi_amenity,telephone_nearest,telephone_nearest,Nearest Telephone,TRUE,"Distance in meters (m) of nearest telephone to barangay centroid, capped at 10,000 m if beyond","Project CCHAIN, OpenStreetMap"
+Physical Vulnerability,Communication access,ookla_internet_speed,mobile_mean_avg_d_kbps_mean,download_speed,Download Speed,FALSE,Mean of average download speed for mobile devices in a tile measured in Kilobits per second (Kbps) for each barangay aggregated from Ookla,"Project CCHAIN, Ookla"
+Physical Vulnerability,"Water, Sanitation and Hygiene (WASH)",osm_poi_sanitation,drinking_water_nearest,drinking_water_nearest,Nearest Drinking_Water,TRUE,"Distance in meters (m) of nearest drinking water station to barangay centroid, capped at 10,000 m if beyond","Project CCHAIN, OpenStreetMap"
+Physical Vulnerability,"Water, Sanitation and Hygiene (WASH)",osm_poi_sanitation,toilet_nearest,toilet_nearest,Nearest Toilet,TRUE,"Distance in meters (m) of nearest public toilet facility to barangay centroid, capped at 10,000 m if beyond","Project CCHAIN, OpenStreetMap"
+Physical Vulnerability,"Water, Sanitation and Hygiene (WASH)",osm_poi_sanitation,waste_basket_nearest,waste_basket_nearest,Nearest Waste Basket,TRUE,"Distance in meters (m) of nearest waste basket to barangay centroid, capped at 10,000 m if beyond","Project CCHAIN, OpenStreetMap"
+Physical Vulnerability,Housing and Assets,google_open_buildings,google_bldgs_density,google_bldgs_density,Google Building Density,TRUE,Average number of buildings for every sq.m. which is calculated by dividing the Total number of buildings from the Total barangay area,"Project CCHAIN, Google Open Buildings v3"
+Physical Vulnerability,Population,worldpop_population,pop_count_total,pop_count_total,Total Population,TRUE,Sum of all population count grids within the barangay from 2020,"Project CCHAIN, WorldPop"
+Physical Vulnerability,Geography,brgy_geography,brgy_distance_to_coast,brgy_distance_to_coast,Distance to Coast,TRUE,"Distance of barangay to nearest coast (m), capped at 10,000 m if beyond that",Project CCHAIN
+Environmental Vulnerability,Geography,esa_worldcover,pct_area_tree_cover,pct_area_tree_cover,Tree Cover Percentage,FALSE,Proportion of tree cover area to the total barangay area which ranges from 0-100 percent,"Project CCHAIN, ESA WorldCover rasters"
