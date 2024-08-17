@@ -5,3 +5,4 @@ folium
 plotly
 streamlit==1.37.1
 streamlit-folium==0.22.0 
+matplotlib
