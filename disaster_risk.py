@@ -15,9 +15,10 @@ def load_data():
     df['risk_category'] = df['risk_score_category'].str.rsplit(n=1).str[-1]
     # Convert DataFrame to GeoDataFrame
     df['geometry'] = df['geometry'].apply(wkt.loads)
-    return df
+    gdf = gpd.GeoDataFrame(df, geometry='geometry', crs="EPSG:4326")
+    return gdf
 
-
+@st.cache_data
 def create_map_grey():
     m = folium.Map(location=[7.25, 125.6], scrollWheelZoom=True, tiles='CartoDB positron', zoom_start=10.49)    
     return m

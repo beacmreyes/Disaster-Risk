@@ -20,13 +20,13 @@ category_colors = {
 
 
 
-@st.fragment()
-def create_donut_chart(df, category_col):   
+@st.cache_data
+def create_donut_chart(_df, category_col):   
     # Define the desired order
     category_order = ['Low', 'Medium', 'High']
 
     # Compute counts for each category
-    category_counts = df[category_col].value_counts()
+    category_counts = _df[category_col].value_counts()
 
     # Reorder categories based on predefined order
     ordered_categories = pd.Categorical(category_counts.index, categories=category_order, ordered=True)
@@ -70,6 +70,7 @@ def create_donut_chart(df, category_col):
 
 
 # Create a function to render the legend
+@st.cache_data
 def render_legend(colors):
     legend = ""
     for category, color in colors.items():
@@ -83,10 +84,8 @@ def render_legend(colors):
 
 
 
-
-def create_map(gdf):
-    # Create a base map
-    m = folium.Map(location=[7.25, 125.6], scrollWheelZoom=True, tiles='CartoDB positron', zoom_start=10.49)
+@st.fragment
+def create_map(m,gdf):
 
     # Add GeoJSON to the map with colors based on category
     geojson_data = gdf.to_json()
@@ -110,9 +109,10 @@ def create_map(gdf):
 
 # Streamlit application
 def main():
+    m = folium.Map(location=[7.25, 125.6], scrollWheelZoom=True, tiles='CartoDB positron', zoom_start=10.49)
     st.title('Davao City Flood Risk')
     df = st.session_state.data    
-    gdf = gpd.GeoDataFrame(df, geometry='geometry', crs="EPSG:4326")
+    gdf = df
     
     col1, col2 = st.columns([3, 6])
 
@@ -133,8 +133,8 @@ def main():
 
     with col2:
         # Create and display the map
-        map_ = create_map(gdf)
-        st_folium(map_, width=800, height=500)
+        map_ = create_map(m,gdf)
+        st_folium(map_, width=800, height=500,returned_objects=[])
 
 if __name__ == "__main__":
     main()

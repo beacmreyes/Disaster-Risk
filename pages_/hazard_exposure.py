@@ -58,9 +58,7 @@ def create_gradient_legend(min_value, max_value,color):
   
 @st.fragment
 def create_map(m,_gdf, feature, display_feature, min_value, max_value, color):
-    # Create a base map
-    
-        
+  
     # Add Choropleth layer to the map
     choropleth = Choropleth(
         geo_data=_gdf,
@@ -104,6 +102,7 @@ def create_map(m,_gdf, feature, display_feature, min_value, max_value, color):
 features_df = pd.read_csv('data/Disaster_Risk_Flood_Hazard.csv', encoding='utf-8')
 hazards = features_df.set_index('display_name').T.to_dict('dict')
 
+
 def main():
     m = folium.Map(location=[7.25, 125.6], scrollWheelZoom=True, tiles='CartoDB positron', zoom_start=10.49)    
     
@@ -142,7 +141,7 @@ def main():
         
         
     with col2:
-        st_folium(map_, width=800, height=490)
+        st_folium(map_, width=800, height=500,returned_objects=[])
 
     st.markdown ("""
     Flood hazards consider take both the height and velocity of the water into consideration and calculates the hazard levels based on the danger they pose to people and structures. Generally, flood hazard level is estimated for an average Filipino with a height of 5\' 6\". However, since the flow velocity is also considered, areas that have shallow but fast-flowing flood waters may have a higher hazard level than that denoted by the height of the flood covering it.
