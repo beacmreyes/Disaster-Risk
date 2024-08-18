@@ -36,7 +36,8 @@ PAGES = {
     "Davao City": "pages_/davao_city.py",
     "Risk": "pages_/risk.py",
     "Flood Hazard Exposure": "pages_/hazard_exposure.py",
-    "Vulnerabilities": "pages_/vulnerability.py"
+    "Vulnerabilities": "pages_/vulnerability.py",
+    "Machine Learning Insights": "pages_/ml_analysis.py"
 }
 
 # Sidebar for navigation

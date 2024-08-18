@@ -145,10 +145,11 @@ def main():
 
     st.markdown ("""
     Flood hazards consider take both the height and velocity of the water into consideration and calculates the hazard levels based on the danger they pose to people and structures. Generally, flood hazard level is estimated for an average Filipino with a height of 5\' 6\". However, since the flow velocity is also considered, areas that have shallow but fast-flowing flood waters may have a higher hazard level than that denoted by the height of the flood covering it.
-    
-- **Low flood hazard level** is a knee-level flood (up to 0.5m) for an average Filipino with a height of 5\' 6\"
-- **Medium flood hazard level** is knee to neck level (up to 1.5m) for an average Filipino with a height of 5\' 6\"
-- **High flood hazard level** is described as flood that is above the neck (above 1.5m) for an average Filipino with a height of 5\' 6\" """)
+""")
+    st.image('images/flood_hazard.png')
+# - **Low flood hazard level** is a knee-level flood (up to 0.5m) for an average Filipino with a height of 5\' 6\"
+# - **Medium flood hazard level** is knee to neck level (up to 1.5m) for an average Filipino with a height of 5\' 6\"
+# - **High flood hazard level** is described as flood that is above the neck (above 1.5m) for an average Filipino with a height of 5\' 6\" 
     st.markdown("""<p style="font-size: 12px;">Data Source: Project NOAH, Project CCHAIN</p>""", unsafe_allow_html=True)
 
 if __name__ == "__main__":

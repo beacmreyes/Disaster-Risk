@@ -1,0 +1,184 @@
+,region,province,city,barangay,risk_score_category,predicted_risk_score_category,predicted_risk_category
+0,Region XI,Davao del Sur,Davao City,Catigan,3 - High,3 - High,High
+1,Region XI,Davao del Sur,Davao City,Barangay 27-C (Pob.),1 - Low,1 - Low,Low
+2,Region XI,Davao del Sur,Davao City,Manambulan,2 - Medium,2 - Medium,Medium
+3,Region XI,Davao del Sur,Davao City,Daliaon Plantation,3 - High,3 - High,High
+4,Region XI,Davao del Sur,Davao City,Malamba,2 - Medium,2 - Medium,Medium
+5,Region XI,Davao del Sur,Davao City,Barangay 32-D (Pob.),1 - Low,1 - Low,Low
+6,Region XI,Davao del Sur,Davao City,Cawayan,2 - Medium,2 - Medium,Medium
+7,Region XI,Davao del Sur,Davao City,Tacunan,3 - High,3 - High,High
+8,Region XI,Davao del Sur,Davao City,Dalag,2 - Medium,2 - Medium,Medium
+9,Region XI,Davao del Sur,Davao City,Barangay 2-A (Pob.),2 - Medium,2 - Medium,Medium
+10,Region XI,Davao del Sur,Davao City,Barangay 15-B (Pob.),1 - Low,1 - Low,Low
+11,Region XI,Davao del Sur,Davao City,Sumimao,2 - Medium,2 - Medium,Medium
+12,Region XI,Davao del Sur,Davao City,Camansi,3 - High,3 - High,High
+13,Region XI,Davao del Sur,Davao City,Paradise Embak,2 - Medium,2 - Medium,Medium
+14,Region XI,Davao del Sur,Davao City,Barangay 29-C (Pob.),1 - Low,1 - Low,Low
+15,Region XI,Davao del Sur,Davao City,Lapu-lapu,1 - Low,1 - Low,Low
+16,Region XI,Davao del Sur,Davao City,Talandang,3 - High,3 - High,High
+17,Region XI,Davao del Sur,Davao City,Santo Niño,1 - Low,1 - Low,Low
+18,Region XI,Davao del Sur,Davao City,Catalunan Grande,2 - Medium,2 - Medium,Medium
+19,Region XI,Davao del Sur,Davao City,Buda,1 - Low,1 - Low,Low
+20,Region XI,Davao del Sur,Davao City,Wilfredo Aquino,1 - Low,1 - Low,Low
+21,Region XI,Davao del Sur,Davao City,Ilang,1 - Low,1 - Low,Low
+22,Region XI,Davao del Sur,Davao City,Marilog,2 - Medium,2 - Medium,Medium
+23,Region XI,Davao del Sur,Davao City,San Isidro (Licanan),3 - High,3 - High,High
+24,Region XI,Davao del Sur,Davao City,Mulig,3 - High,3 - High,High
+25,Region XI,Davao del Sur,Davao City,Daliao,2 - Medium,2 - Medium,Medium
+26,Region XI,Davao del Sur,Davao City,Vicente Hizon Sr.,1 - Low,1 - Low,Low
+27,Region XI,Davao del Sur,Davao City,Centro (San Juan),1 - Low,1 - Low,Low
+28,Region XI,Davao del Sur,Davao City,Dumoy,1 - Low,1 - Low,Low
+29,Region XI,Davao del Sur,Davao City,Acacia,2 - Medium,2 - Medium,Medium
+30,Region XI,Davao del Sur,Davao City,Barangay 4-A (Pob.),1 - Low,1 - Low,Low
+31,Region XI,Davao del Sur,Davao City,Barangay 7-A (Pob.),1 - Low,1 - Low,Low
+32,Region XI,Davao del Sur,Davao City,Riverside,2 - Medium,2 - Medium,Medium
+33,Region XI,Davao del Sur,Davao City,Lamanan,2 - Medium,2 - Medium,Medium
+34,Region XI,Davao del Sur,Davao City,Cadalian,1 - Low,1 - Low,Low
+35,Region XI,Davao del Sur,Davao City,Tamugan,2 - Medium,2 - Medium,Medium
+36,Region XI,Davao del Sur,Davao City,Langub,3 - High,3 - High,High
+37,Region XI,Davao del Sur,Davao City,Ula,3 - High,3 - High,High
+38,Region XI,Davao del Sur,Davao City,Pangyan,2 - Medium,2 - Medium,Medium
+39,Region XI,Davao del Sur,Davao City,Rafael Castillo,1 - Low,1 - Low,Low
+40,Region XI,Davao del Sur,Davao City,Marapangi,3 - High,3 - High,High
+41,Region XI,Davao del Sur,Davao City,Gatungan,2 - Medium,2 - Medium,Medium
+42,Region XI,Davao del Sur,Davao City,Wines,2 - Medium,2 - Medium,Medium
+43,Region XI,Davao del Sur,Davao City,Dalagdag,2 - Medium,2 - Medium,Medium
+44,Region XI,Davao del Sur,Davao City,Binugao,3 - High,3 - High,High
+45,Region XI,Davao del Sur,Davao City,Barangay 31-D (Pob.),1 - Low,1 - Low,Low
+46,Region XI,Davao del Sur,Davao City,Barangay 26-C (Pob.),1 - Low,1 - Low,Low
+47,Region XI,Davao del Sur,Davao City,Barangay 8-A (Pob.),1 - Low,1 - Low,Low
+48,Region XI,Davao del Sur,Davao City,Bago Aplaya,1 - Low,1 - Low,Low
+49,Region XI,Davao del Sur,Davao City,Barangay 10-A (Pob.),1 - Low,1 - Low,Low
+50,Region XI,Davao del Sur,Davao City,Baliok,1 - Low,1 - Low,Low
+51,Region XI,Davao del Sur,Davao City,Biao Joaquin,1 - Low,1 - Low,Low
+52,Region XI,Davao del Sur,Davao City,Talomo (Pob.),2 - Medium,2 - Medium,Medium
+53,Region XI,Davao del Sur,Davao City,Subasta,2 - Medium,2 - Medium,Medium
+54,Region XI,Davao del Sur,Davao City,Barangay 11-B (Pob.),1 - Low,1 - Low,Low
+55,Region XI,Davao del Sur,Davao City,Baracatan,1 - Low,1 - Low,Low
+56,Region XI,Davao del Sur,Davao City,Crossing Bayabas,3 - High,3 - High,High
+57,Region XI,Davao del Sur,Davao City,Lumiad,2 - Medium,2 - Medium,Medium
+58,Region XI,Davao del Sur,Davao City,Barangay 40-D (Pob.),2 - Medium,2 - Medium,Medium
+59,Region XI,Davao del Sur,Davao City,Barangay 5-A (Pob.),1 - Low,1 - Low,Low
+60,Region XI,Davao del Sur,Davao City,Matina Pangi,3 - High,2 - Medium,Medium
+61,Region XI,Davao del Sur,Davao City,Indangan,2 - Medium,2 - Medium,Medium
+62,Region XI,Davao del Sur,Davao City,Angalan,2 - Medium,2 - Medium,Medium
+63,Region XI,Davao del Sur,Davao City,Panalum,3 - High,3 - High,High
+64,Region XI,Davao del Sur,Davao City,Sirib,2 - Medium,2 - Medium,Medium
+65,Region XI,Davao del Sur,Davao City,Megkawayan,2 - Medium,2 - Medium,Medium
+66,Region XI,Davao del Sur,Davao City,Tawan-tawan,2 - Medium,2 - Medium,Medium
+67,Region XI,Davao del Sur,Davao City,Los Amigos,3 - High,3 - High,High
+68,Region XI,Davao del Sur,Davao City,Balengaeng,2 - Medium,2 - Medium,Medium
+69,Region XI,Davao del Sur,Davao City,Barangay 33-D (Pob.),1 - Low,1 - Low,Low
+70,Region XI,Davao del Sur,Davao City,Barangay 9-A (Pob.),1 - Low,1 - Low,Low
+71,Region XI,Davao del Sur,Davao City,Gumalang,2 - Medium,2 - Medium,Medium
+72,Region XI,Davao del Sur,Davao City,Magtuod,3 - High,3 - High,High
+73,Region XI,Davao del Sur,Davao City,Cabantian,1 - Low,1 - Low,Low
+74,Region XI,Davao del Sur,Davao City,Mount Apo National Park under Jurisdiction of Davao City,2 - Medium,2 - Medium,Medium
+75,Region XI,Davao del Sur,Davao City,Paquibato (Pob.),2 - Medium,2 - Medium,Medium
+76,Region XI,Davao del Sur,Davao City,Pandaitan,2 - Medium,2 - Medium,Medium
+77,Region XI,Davao del Sur,Davao City,Barangay 6-A (Pob.),1 - Low,1 - Low,Low
+78,Region XI,Davao del Sur,Davao City,San Antonio,1 - Low,1 - Low,Low
+79,Region XI,Davao del Sur,Davao City,Mintal,2 - Medium,1 - Low,Low
+80,Region XI,Davao del Sur,Davao City,Tambobong,2 - Medium,2 - Medium,Medium
+81,Region XI,Davao del Sur,Davao City,Communal,1 - Low,1 - Low,Low
+82,Region XI,Davao del Sur,Davao City,Sibulan,2 - Medium,2 - Medium,Medium
+83,Region XI,Davao del Sur,Davao City,Suawan (Tuli),2 - Medium,2 - Medium,Medium
+84,Region XI,Davao del Sur,Davao City,Barangay 30-C (Pob.),1 - Low,1 - Low,Low
+85,Region XI,Davao del Sur,Davao City,Barangay 39-D (Pob.),1 - Low,1 - Low,Low
+86,Region XI,Davao del Sur,Davao City,Tibungco,1 - Low,1 - Low,Low
+87,Region XI,Davao del Sur,Davao City,Biao Escuela,3 - High,3 - High,High
+88,Region XI,Davao del Sur,Davao City,Barangay 16-B (Pob.),1 - Low,1 - Low,Low
+89,Region XI,Davao del Sur,Davao City,Bayabas,3 - High,3 - High,High
+90,Region XI,Davao del Sur,Davao City,Mahayag,1 - Low,1 - Low,Low
+91,Region XI,Davao del Sur,Davao City,Toril (Pob.),3 - High,3 - High,High
+92,Region XI,Davao del Sur,Davao City,Barangay 34-D (Pob.),1 - Low,1 - Low,Low
+93,Region XI,Davao del Sur,Davao City,Mandug,3 - High,3 - High,High
+94,Region XI,Davao del Sur,Davao City,Gov. Paciano Bangoy,1 - Low,1 - Low,Low
+95,Region XI,Davao del Sur,Davao City,Manuel Guianga,2 - Medium,2 - Medium,Medium
+96,Region XI,Davao del Sur,Davao City,Salapawan,2 - Medium,2 - Medium,Medium
+97,Region XI,Davao del Sur,Davao City,Atan-Awe,1 - Low,1 - Low,Low
+98,Region XI,Davao del Sur,Davao City,Bunawan (Pob.),3 - High,3 - High,High
+99,Region XI,Davao del Sur,Davao City,Barangay 36-D (Pob.),1 - Low,1 - Low,Low
+100,Region XI,Davao del Sur,Davao City,Kilate,3 - High,3 - High,High
+101,Region XI,Davao del Sur,Davao City,Bago Gallera,1 - Low,1 - Low,Low
+102,Region XI,Davao del Sur,Davao City,Datu Salumay,2 - Medium,2 - Medium,Medium
+103,Region XI,Davao del Sur,Davao City,Baguio (Pob.),1 - Low,1 - Low,Low
+104,Region XI,Davao del Sur,Davao City,Sirawan,3 - High,3 - High,High
+105,Region XI,Davao del Sur,Davao City,Tagakpan,1 - Low,1 - Low,Low
+106,Region XI,Davao del Sur,Davao City,Gov. Vicente Duterte,1 - Low,1 - Low,Low
+107,Region XI,Davao del Sur,Davao City,Tagluno,3 - High,3 - High,High
+108,Region XI,Davao del Sur,Davao City,Callawa,3 - High,3 - High,High
+109,Region XI,Davao del Sur,Davao City,Barangay 22-C (Pob.),1 - Low,1 - Low,Low
+110,Region XI,Davao del Sur,Davao City,Barangay 14-B (Pob.),1 - Low,1 - Low,Low
+111,Region XI,Davao del Sur,Davao City,"Leon Garcia, Sr.",1 - Low,1 - Low,Low
+112,Region XI,Davao del Sur,Davao City,Bantol,2 - Medium,2 - Medium,Medium
+113,Region XI,Davao del Sur,Davao City,Barangay 19-B (Pob.),2 - Medium,1 - Low,Low
+114,Region XI,Davao del Sur,Davao City,Tungakalan,3 - High,3 - High,High
+115,Region XI,Davao del Sur,Davao City,Wangan,2 - Medium,2 - Medium,Medium
+116,Region XI,Davao del Sur,Davao City,Barangay 1-A (Pob.),2 - Medium,2 - Medium,Medium
+117,Region XI,Davao del Sur,Davao City,Dacudao,2 - Medium,2 - Medium,Medium
+118,Region XI,Davao del Sur,Davao City,Alejandra Navarro (Lasang),3 - High,3 - High,High
+119,Region XI,Davao del Sur,Davao City,Matina Biao,3 - High,3 - High,High
+120,Region XI,Davao del Sur,Davao City,Mapula,2 - Medium,2 - Medium,Medium
+121,Region XI,Davao del Sur,Davao City,Ubalde,1 - Low,1 - Low,Low
+122,Region XI,Davao del Sur,Davao City,Barangay 3-A (Pob.),1 - Low,1 - Low,Low
+123,Region XI,Davao del Sur,Davao City,Barangay 13-B (Pob.),1 - Low,1 - Low,Low
+124,Region XI,Davao del Sur,Davao City,New Valencia,3 - High,3 - High,High
+125,Region XI,Davao del Sur,Davao City,Colosas,2 - Medium,2 - Medium,Medium
+126,Region XI,Davao del Sur,Davao City,Waan,3 - High,3 - High,High
+127,Region XI,Davao del Sur,Davao City,Tamayong,2 - Medium,2 - Medium,Medium
+128,Region XI,Davao del Sur,Davao City,Barangay 25-C (Pob.),1 - Low,1 - Low,Low
+129,Region XI,Davao del Sur,Davao City,Magsaysay,2 - Medium,2 - Medium,Medium
+130,Region XI,Davao del Sur,Davao City,Saloy,2 - Medium,2 - Medium,Medium
+131,Region XI,Davao del Sur,Davao City,Malabog,2 - Medium,2 - Medium,Medium
+132,Region XI,Davao del Sur,Davao City,Gumitan,2 - Medium,2 - Medium,Medium
+133,Region XI,Davao del Sur,Davao City,Calinan (Pob.),2 - Medium,2 - Medium,Medium
+134,Region XI,Davao del Sur,Davao City,Mabuhay,3 - High,2 - Medium,Medium
+135,Region XI,Davao del Sur,Davao City,Catalunan Pequeño,2 - Medium,1 - Low,Low
+136,Region XI,Davao del Sur,Davao City,Biao Guianga,3 - High,3 - High,High
+137,Region XI,Davao del Sur,Davao City,Barangay 24-C (Pob.),1 - Low,1 - Low,Low
+138,Region XI,Davao del Sur,Davao City,Barangay 28-C (Pob.),1 - Low,1 - Low,Low
+139,Region XI,Davao del Sur,Davao City,Tapak,2 - Medium,2 - Medium,Medium
+140,Region XI,Davao del Sur,Davao City,Ma-a,2 - Medium,2 - Medium,Medium
+141,Region XI,Davao del Sur,Davao City,Lampianao,3 - High,2 - Medium,Medium
+142,Region XI,Davao del Sur,Davao City,New Carmen,3 - High,3 - High,High
+143,Region XI,Davao del Sur,Davao City,Tigatto,2 - Medium,2 - Medium,Medium
+144,Region XI,Davao del Sur,Davao City,Bucana,2 - Medium,2 - Medium,Medium
+145,Region XI,Davao del Sur,Davao City,Barangay 23-C (Pob.),1 - Low,1 - Low,Low
+146,Region XI,Davao del Sur,Davao City,Lubogan,3 - High,3 - High,High
+147,Region XI,Davao del Sur,Davao City,Baganihan,3 - High,3 - High,High
+148,Region XI,Davao del Sur,Davao City,Eden,3 - High,3 - High,High
+149,Region XI,Davao del Sur,Davao City,Lacson,2 - Medium,2 - Medium,Medium
+150,Region XI,Davao del Sur,Davao City,Barangay 35-D (Pob.),1 - Low,1 - Low,Low
+151,Region XI,Davao del Sur,Davao City,Carmen,2 - Medium,2 - Medium,Medium
+152,Region XI,Davao del Sur,Davao City,Buhangin (Pob.),1 - Low,1 - Low,Low
+153,Region XI,Davao del Sur,Davao City,Barangay 38-D (Pob.),1 - Low,1 - Low,Low
+154,Region XI,Davao del Sur,Davao City,Sasa,1 - Low,1 - Low,Low
+155,Region XI,Davao del Sur,Davao City,Alambre,3 - High,3 - High,High
+156,Region XI,Davao del Sur,Davao City,Tibuloy,3 - High,3 - High,High
+157,Region XI,Davao del Sur,Davao City,Pampanga,1 - Low,1 - Low,Low
+158,Region XI,Davao del Sur,Davao City,Fatima (Benowang),2 - Medium,2 - Medium,Medium
+159,Region XI,Davao del Sur,Davao City,Malagos,2 - Medium,2 - Medium,Medium
+160,Region XI,Davao del Sur,Davao City,Mudiang,1 - Low,1 - Low,Low
+161,Region XI,Davao del Sur,Davao City,Lizada,3 - High,3 - High,High
+162,Region XI,Davao del Sur,Davao City,Dominga,2 - Medium,2 - Medium,Medium
+163,Region XI,Davao del Sur,Davao City,Barangay 21-C (Pob.),1 - Low,1 - Low,Low
+164,Region XI,Davao del Sur,Davao City,Agdao,1 - Low,1 - Low,Low
+165,Region XI,Davao del Sur,Davao City,Barangay 17-B (Pob.),1 - Low,1 - Low,Low
+166,Region XI,Davao del Sur,Davao City,Barangay 18-B (Pob.),1 - Low,1 - Low,Low
+167,Region XI,Davao del Sur,Davao City,Bangkas Heights,2 - Medium,2 - Medium,Medium
+168,Region XI,Davao del Sur,Davao City,Inayangan,2 - Medium,2 - Medium,Medium
+169,Region XI,Davao del Sur,Davao City,Salaysay,2 - Medium,2 - Medium,Medium
+170,Region XI,Davao del Sur,Davao City,Tugbok (Pob.),2 - Medium,2 - Medium,Medium
+171,Region XI,Davao del Sur,Davao City,Matina Aplaya,2 - Medium,2 - Medium,Medium
+172,Region XI,Davao del Sur,Davao City,"Kap. Tomas Monteverde, Sr.",1 - Low,1 - Low,Low
+173,Region XI,Davao del Sur,Davao City,Talomo River,1 - Low,1 - Low,Low
+174,Region XI,Davao del Sur,Davao City,Bato,3 - High,3 - High,High
+175,Region XI,Davao del Sur,Davao City,Tagurano,3 - High,3 - High,High
+176,Region XI,Davao del Sur,Davao City,Barangay 12-B (Pob.),1 - Low,1 - Low,Low
+177,Region XI,Davao del Sur,Davao City,Panacan,1 - Low,1 - Low,Low
+178,Region XI,Davao del Sur,Davao City,Barangay 20-B (Pob.),1 - Low,1 - Low,Low
+179,Region XI,Davao del Sur,Davao City,Matina Crossing,2 - Medium,2 - Medium,Medium
+180,Region XI,Davao del Sur,Davao City,Bago Oshiro,1 - Low,1 - Low,Low
+181,Region XI,Davao del Sur,Davao City,Alfonso Angliongto Sr.,1 - Low,1 - Low,Low
+182,Region XI,Davao del Sur,Davao City,Barangay 37-D (Pob.),1 - Low,1 - Low,Low

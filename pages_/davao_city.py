@@ -33,12 +33,15 @@ def main():
 
     with col1:
         # Display the quote
+        st.write(r"""
+        Davao City, a highly urbanized dity in Davao del Sur, has a total land area of 2,443.61 square kilometers making it the largest city in the Philippines in terms of land area. It is composed of 1,776,949 people according to the 2020 census and is the third-most populous city in the Philippines after Quezon City and Manila. The city is an independently-governed city. it is divided into three (3) congressional districts, which are subdivided into 11 administrative districts with a total of 182 barangays.
+        """)
         st.write("""
-        "Davao City is the regional center of Davao Region. It is the most populous city in Mindanao and the third largest city in the Philippines. Known for its bustling economic activities, urban build-up and modern amenities, Davao City is one of the most important economies in the island, and the third most important urban center in the Philippines."
+        Davao City, despite its significant urban development and growth, is prone to flooding. Its geographical features and heavy rainfall contribute to this vulnerability, particularly during the rainy season. In July 2024, heavy rainfall caused by a southwest monsoon exacerbated by a low-pressure area displaced over 200 families in five villages, namely Buhangin, Cabantian, Angliongto, Panacan, and Sasa.
         """)
         
-        # Provide the citation
-        st.markdown("<a href='https://philippines.travel/destinations/davao-city' target='_blank' style='font-size: 12px; text-decoration: none; color: inherit'> - Official Website of the Department of Tourism, Philippines</a>", unsafe_allow_html=True)
+        # # Provide the citation
+        # st.markdown("<a href='https://www.davaocity.gov.ph' target='_blank' style='font-size: 12px; text-decoration: none; color: inherit'> - Official Website of Davao City</a>", unsafe_allow_html=True)
 
 
 
