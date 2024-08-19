@@ -5,6 +5,7 @@ import folium
 from streamlit_folium import st_folium
 from shapely import wkt
 import matplotlib.colors as mcolors
+import plotly.graph_objects as go
 
 
 
@@ -48,6 +49,46 @@ def main():
     with col2:
         # Create and display the map
         st_folium(m, width=800, height=500,returned_objects=[])
+        
+        
+        city_rainfall_df = pd.read_csv('data/city_rainfall.csv')
+        # Convert 'date' column to datetime
+        city_rainfall_df['date'] = pd.to_datetime(city_rainfall_df['date'])
+        
+        city_rainfall_df['month'] = city_rainfall_df['date'].dt.strftime('%b')  # Short month name (Jan, Feb, Mar, etc.)
+        city_rainfall_df = city_rainfall_df.set_index('month')
+        
+        # Create the Plotly figure
+        fig = go.Figure()
+    
+        # Add a bar trace
+        fig.add_trace(go.Line(
+            x=city_rainfall_df.index,
+            y=city_rainfall_df['pr_norm'],
+            marker=dict(color='blue')
+        ))
+        
+        # Update layout
+        fig.update_layout(
+            title='Accumulated Monthly Normal Rainfall (mm) for the Period 1991-2020',
+            # xaxis_title='Month',
+            # yaxis_title='Accumulated Rainfall (mm)',
+            xaxis=dict(
+                tickmode='array',
+                tickvals=city_rainfall_df.index,  # Set tick values to the months
+                ticktext=city_rainfall_df.index   # Set tick text to month names
+            ),
+            xaxis_title_font_size=14,
+            yaxis_title_font_size=14,
+            title_font_size=16,
+        )
+        
+        # Display the Plotly plot in Streamlit
+        st.plotly_chart(fig)
+        
+        
+        # Create the Plotly figure
+
 
 if __name__ == "__main__":
     main()
